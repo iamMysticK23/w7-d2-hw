@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Week 7 Day 2- Javascript Homework</title>
+</head>
+<body>
+    <h1>Week 7 Day 2- JavaScript Homework</h1>
+    <div class="div"> 
+        <p class="homework">CodeWars Javascript</p>
+        <br> Question 1 
+        <br>Write function bmi that calculates body mass index 
+        <br>(bmi = weight / height2)
+        <br>if bmi <= 18.5 return "Underweight"
+        <br><= 25.0 return "Normal"
+        <br>if bmi <= 30.0 return "Overweight"
+        <br> bmi > 30 return "Obese"
+        <br><br><br>
+
+    <br> Solution:
+    <br>function bmi(weight, height) { <br>
+        <br>const bmi = weight / (height * height);<br>
+          
+        <br>// BMI Categories<br>
+        <br> if (bmi <= 18.5) {
+            <br>return "Underweight";
+            <br> } else if (bmi <= 25.0) {
+                <br>return "Normal";
+                <br>} else if (bmi <= 30.0) {
+                    <br>return "Overweight";
+                    <br> } else {
+                        <br> return "Obese";<br>
+                        <br> }
+                        <br> }
+                        <br><br>
+
+    <br>Question 2
+    <br>In this Kata we are passing a number (n) into a function.   
+    <br>Your code will determine if the number passed is even (or not).
+    <br>The function needs to return either a true or false.
+    <br>Numbers may be positive or negative, integers or floats.
+    <br>Floats with decimal part non equal to zero are considered UNeven for this kata.
+    <br> <br> <br>
+
+    <br>// Check to see if number is integer<br>
+    <br>if (Number.isInteger(n)) {
+        <br>// Check if the number is even<br>
+        <br>return n % 2 === 0;<br>
+        <br> } else {
+            <br>
+            <br> return false;
+            <br> }
+
+
+
+
+    </div>
+
+    
+</body>
+</html>
